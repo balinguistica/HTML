@@ -1,0 +1,61 @@
+body{
+  background: rgb(225, 224, 224);
+  max-width: 900px;
+  margin: auto;
+}
+
+.imagem {
+  position: center;
+  width: 25%;
+  border-radius: 125px;
+  border: 5px solid rgb(115, 0, 255);
+}
+
+#title, .subtitle, .post_title {
+  color: rgb(115, 0, 255);
+}
+
+#title {
+  font-family: Georgia;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(115, 0, 255);
+}
+
+a{
+  font-family: Georgia;
+  text-transform: uppercase;
+  text-decoration: wavy;
+  color: black;
+}
+
+.contacts_list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: Georgia;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(115, 0, 255);
+ } 
+
+.post_title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-style: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.post {
+  font-family: Verdana;
+  background: #fff;
+  padding: 10px;
+  border: 5px dashed rgb(115, 0, 255);
+  margin: 10px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
